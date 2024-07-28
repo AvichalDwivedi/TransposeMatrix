@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Transpose Calculator</title>
+    <link rel="stylesheet" href="/TransposeMatrix/1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Matrix Transpose Calculator</h1>
+        <div class="input-section">
+            <label for="rows">Number of Rows:</label>
+            <input type="number" id="rows" min="1">
+            
+            <label for="cols">Number of Columns:</label>
+            <input type="number" id="cols" min="1">
+            
+            <button id="generateMatrix">Generate Matrix</button>
+        </div>
+        <div class="matrix-section">
+            <form id="matrixForm"></form>
+            <button id="calculateTranspose">Calculate Transpose</button>
+        </div>
+        <div class="result-section">
+            <h2>Transposed Matrix:</h2>
+            <div id="transposedMatrix"></div>
+        </div>
+    </div>
+    <script src="/TransposeMatrix/1.js"></script>
+</body>
+</html>
